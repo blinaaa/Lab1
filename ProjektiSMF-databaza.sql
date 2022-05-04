@@ -8,7 +8,6 @@ Personeli_DataeLindjes datetime not null,
 Personeli_Roli varchar(500) not null check (Personeli_Roli='Menaxher' or Personeli_Roli='Punetore'),
 Personeli_Username varchar(10) not null unique,
 Personeli_Email  varchar(500),
-Personeli_Foto varchar(500)
 );
 
 select * from Personeli
